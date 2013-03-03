@@ -32,6 +32,10 @@ class User {
         return static::$user;
     }
 
+    public function getUsername() {
+        return $this->username;
+    }
+
     public function getServiceGroups() {
         return $this->service_groups;
     }
