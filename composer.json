@@ -1,0 +1,21 @@
+{
+    "name": "dragonee/terminal-endpoint",
+    "description": "An endpoint library for dragonee/terminal application.",
+    "authors": [
+        {
+            "name": "Michał Moroz",
+            "email": "michalmoroz@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-0": {
+            "Endpoint": "src/"
+        },
+
+        "files": ["src/Endpoint/bootstrap.php"]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "ircmaxell/password-compat": "1.x"
+    }
+}
